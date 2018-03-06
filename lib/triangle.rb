@@ -17,7 +17,8 @@ class Triangle
       @side_three
       return :scalene
     elsif initialize(0, 0, 0)
-      raise TriangleError
+      begin
+        raise TriangleError
 
 
     end
