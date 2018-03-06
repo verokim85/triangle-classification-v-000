@@ -9,8 +9,8 @@ class Triangle
   end
 
   def kind
-    if @side_one == @side_two && @side_two == @side_three 
-      puts equilateral
+    if @side_one == @side_two && @side_two == @side_three
+      return equilateral
     end
   end
 
