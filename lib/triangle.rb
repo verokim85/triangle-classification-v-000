@@ -19,7 +19,7 @@ class Triangle
     elsif initialize(0, 0, 0)
       begin
         raise TriangleError
-      end
+      end 
 
 
     end
