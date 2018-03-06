@@ -16,8 +16,7 @@ class Triangle
     elsif @side_one != @side_two && @side_two !=
       @side_three
       return :scalene
-    elsif side_one == 0 && side_two == 0 &&
-      side_three == 0
+    elsif initialize(0, 0, 0)
       raise TriangleError
 
 
