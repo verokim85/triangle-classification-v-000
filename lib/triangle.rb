@@ -10,11 +10,12 @@ class Triangle
 
   def kind
     if @side_one == @side_two && @side_two == @side_three
-      puts :equilateral
+      puts ":equilateral"
     end
   end
 
 end
+
 
 class TriangleError < StandardError
 
