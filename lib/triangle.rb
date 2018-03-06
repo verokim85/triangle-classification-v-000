@@ -10,7 +10,7 @@ class Triangle
 
   def kind
     if @side_one == @side_two && @side_two == @side_three
-      puts "it's an isosceles triangle"
+      puts "it's an equilateral triangle"
     end
   end
 
