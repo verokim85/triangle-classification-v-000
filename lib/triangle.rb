@@ -19,9 +19,7 @@ class Triangle
     elsif @size_one <= 0 && @size_two <= 0 && @size <= 0
         raise TriangleError
       end
-
-
     end
-  end
+
 
 end
